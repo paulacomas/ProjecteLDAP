@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="ca"> 
+
+<head>
+
+<title>Protectora</title> 
+
+<meta charset="utf-8"> 
+<meta name="author" content="Paula Comas">
+<link rel="icon" href="img/logo.jpg"/> 
+
+<link href="css/login.css" rel="stylesheet" type="text/css"> 
+<link href="css/estilsGenerals.css" rel="stylesheet" type="text/css"> 
+    
+</head>
+    
+    <body>
+   
+<nav>
+   
+    <ul class="menu">
+        <li class="boto_menu">
+        <a class="link_menu" href="index.html">HOME</a>
+        </li>
+        <li class="boto_menu">
+        <a class="link_menu" href="animals.html">ANIMALS</a>
+        </li>
+        <li class="boto_menu">
+        <a class="link_menu" href="login.html">LOGIN</a>
+        </li>
+        <li class="boto_menu">
+        <a class="link_menu" href="perfil.html">PERFIL</a>
+        </li>
+      
+    </ul>
+    
+</nav>
+	<img class="imgcapçalera" src="img/perrosygatos.jpg" alt="capçalera">
+
+    <h1>Login</h1>
+	
+	<div class="login">
+	
+	<form>
+		<label>Nom:</label>
+		<br>
+			<input type="text" pattern="{20}"><br>
+		<br>
+		<label>Cognom:</label>
+		<br>
+			<input type="text" pattern="{20}"><br>
+		<br>
+		<label>Email:</label>
+		<br>
+			<input type="email" pattern="[a-zA-Z0-9]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"><br>
+		<br>
+		<label>Edat:</label>
+		<br>
+			<input type="number" min="1" max="100"><br>
+		<br>
+		<label>contrasenya:</label>
+		<br>
+			<input type="password" pattern=".{8,}"><br>
+		<br>
+		<div class="checkbox-label">
+                    <input class="checkbox" type="checkbox">
+                    <label>Recordar contrasenya</label>
+                </div>
+		
+		<br><br>
+		<input type="submit" value="Continuar">
+	</form>	
+    </div>
+    
+	<footer>
+		<img class="imglogo" src="img/logo.jpg" alt="logo"/>
+		<div class="info">
+			<p class="nom">Paula Comas</p>
+			<p>1r DAW</p>
+		</div>
+		</footer>
+     </body>
+        </html>

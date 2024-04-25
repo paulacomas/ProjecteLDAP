@@ -1,0 +1,99 @@
+.descripcio {
+    display: flex;
+    background-color: rgb(209, 255, 209);
+    border-radius: 10px;
+    margin:30px;
+}
+
+.img-descripcio {
+    width:30%;
+	margin:30px;
+}
+
+.imgdescripcio {
+    width: 100%; 
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-descripcio {
+    flex: 1;
+    margin: 30px;
+}
+
+.perfilinfo {
+    display: flex;
+    box-shadow: 7px 7px 10px rgb(209, 255, 209);
+    border-radius: 20px;
+
+}
+
+.imgperfil{
+    width:80%;
+	margin:30px;
+	margin-right:0px;
+    border-radius: 100%;
+}
+
+.perfilimg {
+    width: 20%; 
+    height: auto;
+	margin:0px;
+}
+
+.infoperfil {
+	width: 80%;
+    margin: 30px;
+    
+}
+
+.llistat{
+    list-style-type: none;
+}
+
+h1{
+	text-align: center;
+	margin:30px;
+	color:green;
+
+}
+
+h2{
+	text-align: center;
+	margin:30px;
+	color:green;
+
+}
+
+h3{
+	color:green;
+
+}
+
+.animal-table {
+    width: 80%;
+    margin: 0 auto; 
+	margin-bottom: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 2px solid green;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: lightgreen;
+    color: black;
+}
+
+.animal-img {
+    max-width: 100px;
+    max-height: 100px;
+}
+

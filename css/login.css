@@ -1,0 +1,52 @@
+.imgcapçalera {
+    width: 100%; 
+    height: auto;
+}
+
+h1{
+	text-align: center;
+	margin:30px;
+	color:green;
+
+}
+
+form {
+    padding: 20px;
+    margin: 20px auto;
+    width: 500px;
+    background-color: rgb(209, 255, 209);
+    border-radius: 10px;
+    box-shadow: 7px 7px 5px rgb(201, 236, 201);
+	
+}
+
+label {
+	display: block;
+    margin-bottom: 5px;
+	text-align: left;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+	box-sizing: border-box;
+	
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+	width: 30%;
+	margin-right:10 px
+}
+
+input[type="submit"] {
+    width: auto; 
+	margin: 0 auto; 
+    display: block;
+    width: 30%;
+}
+
+.checkbox {
+    margin:10px;
+}
