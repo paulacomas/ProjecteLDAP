@@ -11,7 +11,8 @@
 <link rel="icon" href="img/logo.jpg"/> 
 
 <link href="css/login.css" rel="stylesheet" type="text/css"> 
-<link href="css/estilsGenerals.css" rel="stylesheet" type="text/css"> 
+<link href="css/estilsGenerals.css" rel="stylesheet" type="text/css">
+
     
 </head>
     
@@ -42,24 +43,12 @@
 	
 	<div class="login">
 	
-	<form>
+	<form action="login.php">
 		<label>Nom:</label>
 		<br>
 			<input type="text" pattern="{20}"><br>
 		<br>
-		<label>Cognom:</label>
-		<br>
-			<input type="text" pattern="{20}"><br>
-		<br>
-		<label>Email:</label>
-		<br>
-			<input type="email" pattern="[a-zA-Z0-9]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"><br>
-		<br>
-		<label>Edat:</label>
-		<br>
-			<input type="number" min="1" max="100"><br>
-		<br>
-		<label>contrasenya:</label>
+		<label>Contrasenya:</label>
 		<br>
 			<input type="password" pattern=".{8,}"><br>
 		<br>
